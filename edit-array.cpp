@@ -29,10 +29,11 @@ int main()
         cout << endl << "Input index ";
         cin >> new_index;
         if (new_index >= 0 && new_index < 10) {
-            myData[new_index] = new_value;
             cout << "Input value ";
             cin >> new_value;
+            myData[new_index] = new_value;
         }
+
         else if (new_index >= 10 || new_index < 0) {
             cout << "Index out of range. Exit.";
         }
