@@ -10,23 +10,29 @@ using namespace std;
 int main()
 {
     // vars
-    int row; // rows == size aka the height
+    int row; // rows == the height
     int col; // cols == width
-    int size;
+    int height;
     int width;
     
-    // inputs
-    cout << "Input size: ";
-    cin >> size;
-    width = size;
+    // inputs from user
+    cout << "Input height: ";
+    cin >> height;
+    // set the width and height to the same value
+    width = height;
     
-    // loops
-    for (row = 1; row <= size; row++) {
+    // loops to draw the figure
+    for (row = 1; row <= height; row++) {
         cout << endl;
         for (col = 1; col <= width; col++) {
-            if ((col == row) || (col == width - (row -1))) {// this is what creates the cross
+            // this is what creates the cross:
+            //an asterisk will be placed where the row and column are the same value
+            // " (col == width - (row -1) " is what draws the diagonal starting from the opposite side
+            if ((col == row) || (col == width - (row -1))) {
                 cout << "*";
             }
+            // this will put emptpy whereever the row != col:
+            // this is also what ensures that the asterisks make the shape
             else{
                 cout << " "; // comments spaces whereever the rows != cols ; this is what essentially creates the diagonal line
             }
