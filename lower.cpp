@@ -1,7 +1,8 @@
 /*
  Amy Ghotra
  Prof Maryash
- Lab 4D: lower triangle
+ 
+ this program will draw the lower left side of a square/rectangle given a size
  */
 
 #include <iostream>
