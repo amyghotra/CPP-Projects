@@ -1,8 +1,5 @@
 /*
- Amy ghotra
- Prof Maryash
- Project 1C
-
+ Amy Ghotra
 */
 
 #include <iostream>
