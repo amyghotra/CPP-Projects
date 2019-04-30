@@ -1,7 +1,7 @@
 /*
     amy ghotra
     social media 2/3
-    program allows users to follow one another
+    program stores profiles of users and saves the users and their information
 */
 
 #include <iostream>
