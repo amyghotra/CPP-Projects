@@ -1,6 +1,7 @@
 /*
     amy ghotra
     social media 2/3
+    program allows users to follow one another
 */
 
 #include <iostream>
