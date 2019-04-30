@@ -1,6 +1,5 @@
 /*
  Amy Ghotra
- Prof Maryash
  
  this program will draw the lower left side of a square/rectangle given a size
  */
