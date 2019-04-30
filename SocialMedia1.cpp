@@ -1,6 +1,7 @@
 /*
     amy ghotra
     social media 1/3
+    program stores basic information about user to network
 */
 
 #include <iostream>
