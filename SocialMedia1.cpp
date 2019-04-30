@@ -1,15 +1,16 @@
-// amy ghotra
-// professor maryash
-// csci 135 136
-// lab 11a
+/*
+    amy ghotra
+    social media 1/3
+*/
 
 #include <iostream>
 using namespace std;
 
+// create class profile which will store basic user information
 class Profile{
 private:
-    string username;
-    string displayname;
+    string username; // store username
+    string displayname; // store displayname / user's actual name
 public:
     Profile(string usrn, string dspn);
     Profile();
@@ -18,18 +19,22 @@ public:
     void setDisplayName(string dspn);
 };
 
+// assign and save username and displayname
 Profile::Profile(string usrn, string dspn)
 {
     username = usrn;
     displayname = dspn;
 }
 
+// defauly member function
+// resets everything to null / empty
 Profile::Profile()
 {
     username = "";
     displayname = "";
 }
 
+// simply returns the username
 string Profile::getUsername()
 {
     return username;
@@ -61,6 +66,5 @@ int main()
     cout << p2.getUsername() << endl; // tarma1
     cout << p2.getFullName() << endl; // Tarma Roving (@tarma1)
     
-    //return 0;
 }
 
