@@ -1,9 +1,5 @@
 /*
  Amy Ghotra
- CSCI 135
- Lab 1A : smaller.cpp
- 
- this program will prompt the user for two numbers and will output the smaller of the two
  */
 
 #include <iostream>
