@@ -1,5 +1,6 @@
 /*
  Author: Amy Ghotra
+ Description: gets three numbers from user and prints out the smallest
  */
 
 #include <iostream>
