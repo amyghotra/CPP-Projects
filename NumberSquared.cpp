@@ -1,10 +1,6 @@
 /*
  Author: amy ghotra
- Course: CSCI-136
- Instructor: maryash
- Assignment: lab2a
- 
- This program prompts the user to input an integer between 1 and 99.
+ prompts the user for a number 1 - 99 and outputs the number squared
  */
 
 #include <iostream>
