@@ -1,10 +1,5 @@
 /*
  Amy Ghotra
- CSCI 135
- Professor Maryash
- Project 1B : this project takes an input of a series of numbers and adds/subtracts them up
- 
- 1B vs 1A: 1B contains addition and subtraction symbols in addition to integers, whereas 1A simply contains integers
  */
 
 #include <iostream>
