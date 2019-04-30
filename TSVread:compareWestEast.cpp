@@ -2,7 +2,6 @@
  
  Amy Ghotra
  
- Professor Maryash
  
  compares the level of West and East elevation over the user-specified timeline, then prints out the date as well as which side-- west or east-- had the higher elevation
  
