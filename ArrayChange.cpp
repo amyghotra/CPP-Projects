@@ -1,11 +1,9 @@
 /*
  Author: amy ghotra
- Course: CSCI-136
- Instructor: maryash
- Assignment: lab2c
  
  This program starts off with an array full of 1's
- The user is prompted to input a new index value, and is also prompted to assign the index value associated with the array a new value
+ The user is prompted to input a new index value, and is also prompted to assign 
+ the index value associated with the array a new value
  The prgram outputs updates and prints arrays
  */
 
@@ -15,13 +13,17 @@ using namespace std;
 
 int main()
 {
-    int myData[10];
+    int myData[10]; // create array
     int i;
     int new_index;
     int new_value;
+   
+    // change every value in the array to be 1
     for (i = 0; i <= 10; i++) {
         myData[i] = 1;
     }
+ 
+    // replace values with values given by user
     do {
         for (i = 0; i <= 10; i++) {
             cout << myData[i];
