@@ -1,4 +1,5 @@
 /*
+amy ghotra
  this program will ask the user for a date and will output the day
 
 */
