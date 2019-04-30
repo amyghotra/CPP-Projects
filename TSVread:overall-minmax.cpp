@@ -2,7 +2,6 @@
  
  Amy Ghotra
  
- Professor Maryash
  
 reads through the file (reads only through the dates specified), and finds the maxiumum and minimum amount of East Storage
 
