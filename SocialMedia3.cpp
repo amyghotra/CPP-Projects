@@ -1,11 +1,12 @@
-// amy ghotra
-// professor maryash
-// csci 135 136
-// lab 11b
+/*
+    amy ghotra
+    social media 3/3
+*/
 
 #include <iostream>
 using namespace std;
 
+// class to store basic user information
 class Profile{
 private:
     string username;
