@@ -1,10 +1,6 @@
 /*
  Author: Amy Ghotra
- Course: CSCI-136
- Instructor: Maryash
- Assignment: Lab1B
- 
- Program asks user for month and year and then prints how many days are in the month
+ Description: program gets month and year from user and prints out how many days are in that month
  */
 
 #include <iostream>
@@ -25,6 +21,7 @@ int main()
     cout << "Enter month: ";    // asking the user for an input
     cin >> inputMonth;            // saving the input into a var
     
+    // conditionals to determine how many days  
     if (inputMonth == 1){
         month = "January";
         days = 31;
