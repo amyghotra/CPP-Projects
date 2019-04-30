@@ -1,4 +1,7 @@
 // amy ghotra
+// program determines how much time has passed since midnight
+// program asks user for two times and tell them the difference btwn them
+
 
 #include <iostream>
 using namespace std;
