@@ -13,12 +13,16 @@ int main()
     int numberTwo = 0;
     int numberThree = 0;
     int smaller = 0;
+ 
+    // get input/numbers from user and store them into variables
     cout << "Enter the first number: ";
     cin >> numberOne;
     cout << "Enter the second number: ";
     cin >> numberTwo;
     cout << "Enter the third number: ";
     cin >> numberThree;
+ 
+    // use conditionals to place them in order
     if ((numberOne < numberTwo) && (numberOne < numberThree)) {
         smaller = numberOne;
     }
@@ -28,6 +32,9 @@ int main()
     else if ((numberThree < numberOne) && (numberThree < numberTwo)) {
         smaller =  numberThree;
     }
+    
+    // print out the smallest number
     cout << "The smaller of the three is " << smaller;
+ 
     return 0;
 }
