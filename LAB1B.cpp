@@ -1,10 +1,5 @@
 /*
  Author: Amy Ghotra
- Course: CSCI-136
- Instructor: Maryash
- Assignment: Lab1B
- 
- Program asks user for three integers and prints the smallest of the three
  */
 
 #include <iostream>
