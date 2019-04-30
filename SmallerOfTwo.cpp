@@ -1,5 +1,6 @@
 /*
  Amy Ghotra
+ Program gets two numbers from user and prints out the smaller one
  */
 
 #include <iostream>
