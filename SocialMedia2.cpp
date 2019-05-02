@@ -1,11 +1,13 @@
-// amy ghotra
-// professor maryash
-// csci 135 136
-// lab 11b
+/*
+    amy ghotra
+    social media 2/3
+    program stores profiles of users and saves the users and their information
+*/
 
 #include <iostream>
 using namespace std;
 
+// create class to store basic user information (see SocialMedia1.cpp)
 class Profile{
 private:
     string username;
@@ -47,10 +49,11 @@ string Profile::getFullName()
     return name;
 }
 
+// create class to store all users
 class Network
 {
 private:
-    static const int MAX_USERS = 20;
+    static const int MAX_USERS = 20; // set a limit of # users
     Profile profiles[MAX_USERS]; // add usernames into an array
     int numUser; // keep track of how many registered users there are
     

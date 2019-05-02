@@ -1,6 +1,5 @@
 /*
  Amy Ghotra
- Prof
  
  This program asks the user for the width and length of a box and outputs the box
  */

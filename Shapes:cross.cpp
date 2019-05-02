@@ -1,7 +1,5 @@
 /*
  Amy Ghotra
- Prof Maryash
- Lab 4C
 */
 
 #include <iostream>

@@ -1,5 +1,5 @@
 /*
- this program will ask the user for an input and output whether the number is prime or now
+ this program will ask the user for an input and output whether the number is prime or not
  */
 
  #include <iostream>

@@ -2,8 +2,6 @@
  
 Amy Ghotra
  
-Professor Maryash
- 
 asks the user to input string representing the date, and then prints out the East basin storage from that day
  
  */
